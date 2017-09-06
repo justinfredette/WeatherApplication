@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Application</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://freegeoip.net/json/"></script>
+
+	<script type="text/javascript" src="https://fcc-weather-api.glitch.me/api/current?lat=&lon="></script>
+</head>
+  <body class="container-fluid text-center">
+    <body>
+    <h1 id="title" class="col-md-6 col-md-offset-4" >Local Weather Application</h1>
+
+    <h3 id="local" class="col-md-6 col-md-offset-3">Local Weather</h3>
+  
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 well-wrap well">
+        
+        
+        <span id="theWeather">Weather</span>
+        <div id="theTemp">Temperature</div>
+        <span id="weatherIcon" class="icons" >Icon</span>
+        
+        <div id="currentCity">City</div>
+        <div id="currentState">State</div> 
+        <div id="currentZip">Zip Code</div>
+        <div id="currentCountry">Country</div>
+        <div id="currentLat">Latitude</div>
+        <div id="currentLong">Longitude</div>
+        
+        <button type="button" id="convert" class="btn btn-primary btn-lg">°C / °F</button>
+      </div>
+    </div>
+    <footer class="text-center">Coded by Justin Fredette</footer>
+</div>
+</body>
+<script type="text/javascript" src="https://freegeoip.net/json/"></script>
+
+<script type="text/javascript" src="https://fcc-weather-api.glitch.me/api/current?lat=&lon="></script>
+
+<script type="text/javascript" src="WeatherApp.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</html>

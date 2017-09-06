@@ -1,0 +1,55 @@
+#convert {
+  margin-top: 0px;
+}
+
+#title {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 630px;
+  width: 620px;
+  border: black solid 1px;
+}
+
+#local {
+  width: 950px;
+  margin-left: 470px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#currentCity {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#currentState {
+  margin-bottom: 5px;
+}
+
+#currentZip {
+  margin-bottom: 5px;
+}
+
+#currentCountry {
+  margin-bottom: 5px;
+}
+
+#currentLat {
+  margin-bottom: 5px;
+}
+
+#currentLong {
+  margin-bottom: 5px;
+}
+
+#theWeather {
+  margin-bottom: 5px;
+}
+
+#theTemp {
+  margin-bottom: 5px;
+}
+
+#weatherIcon {
+  margin-bottom: 0px;
+}
